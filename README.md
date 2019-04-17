@@ -1,2 +1,2 @@
-# TecHay-Games.github.io
+# TecHay Games
 Site oficial
