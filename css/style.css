@@ -1,0 +1,79 @@
+/*Universal*/
+.center-heigth{
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.center-left{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+/* Edição do parallax */
+.parallax{
+	height: 100vh;
+	min-height: 500px;
+	background: url(http://freefiremobile-a.akamaihd.net/ffwebsite/images/hq.jpg);
+	background-attachment: fixed;
+	background-position: content;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.title-parallax{
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-decoration: underline;
+}
+
+.bar{
+	width: 40px;
+	background-color: white;
+	height: 3px;
+}
+
+/*Conteudo*/
+.conteudo-sobre{
+	height: 100vh;
+	min-height: 500px;
+	background-image: url(https://event.ff.garena.com/copabrasil/img/bg-intro.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.conteudo-regras{
+	height: 100vh;
+	min-height: 500px;
+	background-image: url(https://event.ff.garena.com/copabrasil/img/bg-rules.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.font-regras{
+	font-size: 15pt
+}
+
+.bg-black{
+	background: black;
+}
+
+.class{
+	z-index: 1;
+}
+
+.class-2{
+	z-index: 0;
+}
+
+.border-class{
+	top: -30px;
+}
+
+.table-dark{
+	background-color: black !important;
+}
