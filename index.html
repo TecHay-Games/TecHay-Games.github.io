@@ -7,26 +7,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body class="bg-black" id="page-top">
 	<nav class="navbar sticky-top border-bottom navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">TecHay - <span class="text-danger">GAMES</span></a>
+		<a class="navbar-brand font-weight-bold" href="#">TecHay - <span class="text-danger">GAMES</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto my-1">
+			<ul class="navbar-nav ml-auto my-1 font-weight-bold" id="top">
 				<li class="nav-item active">
 					<a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item active border-right">
-					<a class="nav-link" href="#">SOBRE</a>
+				<li class="nav-item border-right active">
+					<a class="nav-link js-scroll-trigger" href="#page-top">SOBRE</a>
 				</li>
-				<li class="nav-item border-right">
-					<a class="nav-link" href="#">REGRAS E REGULAMENTOS</a>
+				<li class="nav-item border-right active">
+					<a class="nav-link js-scroll-trigger" href="#conteudo-inicial">REGRAS E REGULAMENTOS</a>
 				</li>
-				<li class="nav-item">
-					<a href="" class="nav-link">CLASSIFICAÇÃO</a>
+				<li class="nav-item active">
+					<a href="#classi" class="nav-link js-scroll-trigger">CLASSIFICAÇÃO</a>
 				</li>
 			</ul>
 		</div>
@@ -34,11 +34,11 @@
 	<div class="container-fluid parallax">
 		<div class="row center-heigth">
 			<div class="col-12 text-white text-center text-uppercase">
-				<h2 class="font-weight-bold display-2">
+				<h2 class="font-weight-bold">
 					TECHAY - <span class="text-danger">games</span>
 				</h2>
 				<hr class="bar rounded" />
-				<h3 class="font-weight-bold display-3 rounded bg-warning text-white">CUP - FREE FIRE</h3>
+				<h3 class="font-weight-bold pt-2 pr-4 pl-4 pb-2 d-inline rounded bg-warning text-white">CUP - FREE FIRE</h3>
 			</div>
 		</div>
 
@@ -55,18 +55,18 @@
 					</h1>
 					<h1 class="font-weight-bold text-warning">
 						120 REAIS EM PRÊMIO
-					</h1>
+					</h1><!-- 
 					<h1 class="font-weight-bold bg-danger rounded-left d-inline pt-1 pb-1 pl-2 pr-2">
 						SERÁ VOCÊ O MELHOR
 					</h1>
 					<h1 class="font-weight-bold bg-white rounded-right d-inline pt-1 pb-1 pl-2 pr-2">
 						DO CUP - FREE FIRE?
-					</h1>
+					</h1> -->
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid">
+	<div class="container-fluid" id="conteudo-inicial">
 		<div class="row">
 			<div class="col-12 conteudo-regras">
 				<div class="center-heigth">
@@ -80,7 +80,7 @@
 					</div>
 
 
-					<table class="table table-bordered">
+					<table class="table table-sm table-bordered d-none d-lg-table">
 						<tr class="text-center text-white">
 							<td>1° lugar</td>
 							<td>2° lugar</td>
@@ -96,11 +96,35 @@
 							<td>100 pontos</td>
 						</tr>
 					</table>
+					<table class="table table-sm table-bordered d-lg-none d-table">
+						<tr class="text-center text-white">
+							<td scope="row">1° lugar</td>
+							<td>500 pontos</td>
+						</tr>
+						<tr class="text-center text-white">
+							<td scope="row">2° lugar</td>
+							<td>400 pontos</td>
+						</tr>
+						<tr class="text-center text-white">
+							<td scope="row">3° lugar</td>
+							<td>300 pontos</td>
+						</tr>
+						<tr class="text-center text-white">
+							<td scope="row">4° lugar</td>
+							<td>200 pontos</td>
+						</tr>
+						<tr class="text-center text-white">
+							<td scope="row">5° lugar</td>
+							<td>100 pontos</td>
+						</tr>
+
+
+					</table>
 				</div>
 			</div>			
 		</div>
 	</div>
-	<div class="container-fluid bg-black">
+	<div class="container-fluid bg-black" id="classi">
 		<div class="row">
 			<div class="col-12  class ">
 				<h3 class="font-weight-bold rounded pt-1 pl-2 pr-2 pb-1 text-uppercase text-center"><span class="text-white 	 border pt-1 pb-1 pl-2 pr-2 bg-black rounded border-success">Classificação</span></h3>
@@ -109,87 +133,63 @@
 		<div class="row class-2">
 			<div class="col-12 border-top border-success border-class">
 				<div class="container">
-					<table class="table text-center mt-5 rounded table-dark">
-						<thead>
-							<tr>
-								<th scope="col">Posição</th>
-								<th scope="col">Time</th>
-								<th scope="col">Pontos</th>
-								<th scope="col">Total de abates</th>
-								<th scope="col">Pontuação por abates</th>
-								<th scope="col">TOTAL</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td>Mark</td>
-								<td>2000</td>
-								<td>30</td>
-								<td>50</td>
-								<td>1200</td>
+					<div class="row">
+						<div class="col-12">
+							<table class="table table-sm text-center mt-5 rounded table-dark">
+								<thead>
+									<tr>
+										<th scope="col">Posição</th>
+										<th scope="col">Time</th>
+										<th class="d-none d-lg-table-cell" scope="col">Pontos</th>
+										<th class="d-none d-lg-table-cell" scope="col">Total de abates</th>
+										<th class="d-none d-lg-table-cell" scope="col">Pontuação por abates</th>
+										<th scope="col">TOTAL</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Time 1</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td>0</td>
 
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td>Jacob</td>
-								<td>2000</td>
-								<td>50</td>
-								<td>50</td>
-								<td>1000</td>
+									</tr>
 
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td>Larry</td>
-								<td>2000</td>
-								<td>50</td>
-								<td>50</td>
-								<td>10000</td>
+									<tr>
+										<th scope="row">2</th>
+										<td>Time 2</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td>0</td>
 
-							</tr>
+									</tr>
 
-							<tr>
-								<th scope="row">4</th>
-								<td>Larry</td>
-								<td>2000</td>
-								<td>50</td>
-								<td>50</td>
-								<td>10000</td>
+									<tr>
+										<th scope="row">3</th>
+										<td>Time 3</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td>0</td>
 
-							</tr>
+									</tr>
 
-							<tr>
-								<th scope="row">5</th>
-								<td>Larry</td>
-								<td>2000</td>
-								<td>50</td>
-								<td>50</td>
-								<td>10000</td>
+									<tr>
+										<th scope="row">4</th>
+										<td>Time 4</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td class="d-none d-lg-table-cell">0</td>
+										<td>0</td>
 
-							</tr>
-
-							<tr>
-								<th scope="row">6</th>
-								<td>Larry</td>
-								<td>2000</td>
-								<td>50</td>
-								<td>50</td>
-								<td>10000</td>
-
-							</tr>
-
-							<tr>
-								<th scope="row">7</th>
-								<td>Larry</td>
-								<td>2000</td>
-								<td>50</td>
-								<td>50</td>
-								<td>10000</td>
-
-							</tr>
-						</tbody>
-					</table>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -202,8 +202,12 @@
 			</div>
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="js/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/scrolling-nav.js"></script>
 </body>
 </html>
