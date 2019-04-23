@@ -61,17 +61,17 @@
 .bg-black{
 	background: black;
 }
-
+/*
 .class{
 	margin-top: 230px;
 	z-index: 1;
 	bottom: -30px;
 }
-
-.class-2{
+*/
+/*.class-2{
 	z-index: 0;
 }
-
+*/
 .border-class{
 	top: 0px;
 }
@@ -93,4 +93,13 @@
 .barrinhas-menu{
 	width: 0px;
 	padding: 0;
+}
+
+
+.separa{
+	margin-top: 500px;
+}
+
+.separa1{
+	margin-top: 100px;
 }
