@@ -63,7 +63,9 @@
 }
 
 .class{
+	margin-top: 230px;
 	z-index: 1;
+	bottom: -30px;
 }
 
 .class-2{
@@ -71,9 +73,24 @@
 }
 
 .border-class{
-	top: -30px;
+	top: 0px;
 }
 
 .table-dark{
 	background-color: black !important;
+}
+
+
+.margin-table-mobile{
+}
+
+.button-parti{
+	width: 200px;
+	margin-top: 20px;
+}
+
+
+.barrinhas-menu{
+	width: 0px;
+	padding: 0;
 }
