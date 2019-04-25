@@ -61,17 +61,14 @@
 .bg-black{
 	background: black;
 }
-/*
 .class{
 	margin-top: 230px;
 	z-index: 1;
-	bottom: -30px;
+	bottom: 0px;
 }
-*/
-/*.class-2{
+.class-2{
 	z-index: 0;
 }
-*/
 .border-class{
 	top: 0px;
 }
