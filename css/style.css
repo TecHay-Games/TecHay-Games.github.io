@@ -116,3 +116,18 @@ nav.border-bottom{
 	border: none !important
 }
 
+
+
+.links-guildas:hover{
+	background: black;
+}
+
+
+.nav-item{
+	border-bottom: 1px solid transparent;
+	transition: 0.2s;
+}
+
+.nav-item:hover{
+	border-bottom: 1px solid white;
+}
